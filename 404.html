@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>已迁移到 xixitime.cn</title>
+<link rel="canonical" href="https://xixitime.cn/">
+<script>
+  // 任意子路径都带着原路径跳过去：/paike/ → https://xixitime.cn/paike/
+  (function () {
+    var p = location.pathname + location.search + location.hash;
+    if (p === "/" || p === "/index.html") p = "/";
+    location.replace("https://xixitime.cn" + p);
+  })();
+</script>
+<style>
+  body{margin:0;background:#fdfcf8;color:#2b3a34;font:16px/1.8 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+       display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center}
+  .box{padding:30px}
+  h1{font-size:19px;margin:0 0 10px}
+  a{color:#4f7a68}
+</style>
+</head>
+<body>
+  <div class="box">
+    <h1>本站已迁移</h1>
+    <p>新地址：<a href="https://xixitime.cn/">xixitime.cn</a></p>
+    <p style="font-size:13px;color:#7b8a83">如果没有自动跳转，请点击上面的链接。</p>
+  </div>
+</body>
+</html>
